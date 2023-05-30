@@ -1,0 +1,85 @@
+@import 'assets/scss/_base.scss';
+
+@media screen and (min-width: 0) {
+  .about {
+    background-color: $cinza-escuro;
+    padding: 24px;
+    text-align: center;
+
+    &__img {
+      display: block;
+      height: 300px;
+      margin: 0 auto;
+    }
+
+    &__info {
+
+      &-text {
+        text-align: initial;
+        color: $branco-principal;
+        padding: 24px 0;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+
+        & a {
+          color: inherit;
+        }
+      }
+
+      &-btn {
+        border: 1px solid $branco-principal;
+        background-color: $branco-principal;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 10px;
+        color: $cinza-escuro;
+        display: block;
+
+        &:hover {
+          cursor: pointer;
+          background-color: $cinza-claro;
+          border-color: $cinza-escuro;
+          color: $cinza-escuro;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    padding: 40px 32px;
+    display: flex;
+    align-items: flex-end;
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+
+      &-text {
+        padding: 0 0 20px;
+      }
+
+      &-btn {
+        width: 155px;
+      }
+    }
+
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about {
+    padding: 48px;
+
+    &__info {
+      width: 55%;
+
+      &-text {
+        line-height: 28px;
+      }
+    }
+  }
+}

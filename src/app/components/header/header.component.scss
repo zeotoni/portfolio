@@ -1,4 +1,4 @@
-@import '/src/assets/scss/base';
+@import 'assets/scss/base';
 
 @media screen and (min-width:0) {
 
@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid $branco-principal;
 
     &__menu-hamb {
 
@@ -82,6 +83,9 @@
 
     .icon-theme {
       color: $branco-principal;
+      &:hover {
+        cursor: pointer;
+      }
     }
 
     &__list {
