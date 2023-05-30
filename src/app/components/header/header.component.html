@@ -1,6 +1,6 @@
 <header class="header">
   <div class="header__menu-hamb">
-    <input type="checkbox" id="checkbox" (change)="toggleShowUl()"  class="checkbox visuallyHidden">
+    <input type="checkbox" id="checkbox" (change)="toggleShowUl()" class="checkbox visuallyHidden">
     <label for="checkbox">
         <div class="hamburger">
             <span class="bar bar1"></span>
@@ -10,9 +10,9 @@
         </div>
     </label>
   </div>
-  <span class="material-icons">brightness_4</span>
+  <span class="material-icons icon-theme">brightness_4</span>
   <ul class="header__list" [@slideInOut]="animationState ? 'in' : 'out' ">
-    <li class="header__list-item"><a href="#">Sobre mim</a></li>
+    <li class="header__list-item"><a href="#">Sobre</a></li>
     <li class="header__list-item"><a href="#">Projetos</a></li>
     <li class="header__list-item"><a href="#">Contato</a></li>
   </ul>
