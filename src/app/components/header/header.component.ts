@@ -1,4 +1,4 @@
-import { Component, HostListener, OnInit } from '@angular/core';
+import { Component, HostBinding, HostListener, OnInit } from '@angular/core';
 import { SlideInOutAnimation } from './header-animation';
 
 
@@ -28,9 +28,6 @@ export class HeaderComponent implements OnInit{
   }
 
   toggleShowUl() {
-
     this.animationState = !this.animationState;
-
-    // this.animationState = this.animationState === 'out' ? 'in' : 'out';
   }
 }

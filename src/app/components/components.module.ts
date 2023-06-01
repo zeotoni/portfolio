@@ -3,6 +3,7 @@ import { NgModule } from "@angular/core";
 import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from "./footer/footer.component";
 import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from "./projects/projects.component";
 
 @NgModule({
   imports: [
@@ -11,12 +12,14 @@ import { AboutComponent } from './about/about.component';
   declarations: [
     HeaderComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectsComponent
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectsComponent
   ]
 })
 export class ComponentsModule {}
