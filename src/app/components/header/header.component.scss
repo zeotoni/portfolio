@@ -7,7 +7,7 @@
   }
   .header {
     padding: 32px 24px;
-    background-color: $cinza-escuro;
+    background-color: $cinza-dark-1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,20 +103,21 @@
       top: 98px;
       width: 100vw;
       padding: 32px;
-      background-color: $cinza-claro;
+      background-color: $cinza-dark-4;
 
       &-item {
         padding: 8px 0;
-        border-bottom: .5px solid $cinza-medio;
+        border-bottom: .5px solid $cinza-dark-3;
         font-size: 28px;
         font-weight: 700;
 
         a {
-          color: $cinza-escuro;
+          color: $cinza-dark-1;
           text-decoration: none;
 
           &:hover {
             text-decoration: underline;
+            color: $cinza-dark-4;
           }
         }
       }

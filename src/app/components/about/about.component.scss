@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 0) {
   .about {
-    background-color: $cinza-escuro;
+    background-color: $cinza-dark-1;
     padding: 24px;
     text-align: center;
     border-bottom: 1px solid $branco-principal;
@@ -30,19 +30,22 @@
       }
 
       &-btn {
-        border: 1px solid $branco-principal;
-        background-color: $branco-principal;
-        padding: 10px;
+        border: 2px solid;
+        background-color: $cinza-dark-2;
+        width: 150px;
+        height: 48px;
         font-size: 18px;
-        border-radius: 10px;
-        color: $cinza-escuro;
-        display: block;
+        font-weight: 700;
+        border-radius: 5px;
+        color: $branco-principal;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
 
         &:hover {
           cursor: pointer;
-          background-color: $cinza-claro;
-          border-color: $cinza-escuro;
-          color: $cinza-escuro;
+          background-color: $cinza-dark-3;
         }
       }
     }
@@ -62,10 +65,6 @@
 
       &-text {
         padding: 0 0 20px;
-      }
-
-      &-btn {
-        width: 155px;
       }
     }
 

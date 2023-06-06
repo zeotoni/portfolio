@@ -3,7 +3,7 @@
 @media screen and (min-width: 0) {
 
   .projects {
-    background-color: $cinza-escuro;
+    background-color: $cinza-dark-1;
     display: flex;
     flex-direction: column;
     padding: 32px 24px;
@@ -23,10 +23,9 @@
     &__card {
       width: 300px;
       margin: 0 auto;
-      background-color: #4e4e4e;
-      border: 1px solid $branco-principal;
+      background-color: $cinza-dark-2;
       border-radius: 10px;
-      box-shadow: rgba(240, 233, 233, 0.711) 0px 5px 15px;
+      box-shadow: rgba(240, 233, 233, 0.711) 0px 5px 20px;
 
       &-img {
         width: 300px;
@@ -35,22 +34,21 @@
       }
 
       &-description {
-        padding: 10px;
+        padding: 15px;
         display: flex;
         flex-direction: column;
         gap: 10px;
         color: $branco-principal;
 
         &-title {
-          font-size: 20px;
-          & a {
-            color: $branco-principal;
-          }
+          font-size: 22px;
         }
 
         &-text {
-          font-size: 18px;
+          font-size: 16px;
           font-weight: 500;
+          line-height: 24px;
+          color: $cinza-dark-4;
         }
 
         &-subtitle {
@@ -68,6 +66,29 @@
           }
         }
       }
+
+      &-buttons {
+        padding: 0 15px 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        & a {
+          color: $branco-principal;
+          font-weight: 700;
+          text-decoration: none;
+          padding: 10px 15px;
+          border: 2px solid;
+          border-radius: 5px;
+          display: flex;
+          gap: 10px;
+          align-items: flex-start;
+
+          &:hover {
+            background-color: $cinza-dark-3;
+          }
+        }
+      }
     }
   }
 }
@@ -79,7 +100,7 @@
     &__cards {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      width: 620px;
+      width: 624px;
       margin: 0 auto;
       gap: 24px;
     }
@@ -95,9 +116,9 @@
     }
 
     &__cards {
-      display: grid;
+      gap: 30px;
       grid-template-columns: 1fr 1fr 1fr;
-      width: 940px;
+      width: 960px;
     }
   }
 }
