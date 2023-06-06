@@ -4,6 +4,7 @@ import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from "./footer/footer.component";
 import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from "./projects/projects.component";
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   imports: [
@@ -13,13 +14,15 @@ import { ProjectsComponent } from "./projects/projects.component";
     HeaderComponent,
     FooterComponent,
     AboutComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactComponent
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
     AboutComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactComponent
   ]
 })
 export class ComponentsModule {}

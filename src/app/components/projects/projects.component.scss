@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     padding: 32px 24px;
+    border-bottom: 1px solid $branco-principal;
 
     &__title {
       color: $branco-principal;
@@ -110,6 +111,8 @@
 @media screen and (min-width: 1024px) {
 
   .projects {
+
+    padding: 32px 0 48px;
 
     &__title {
       padding: 32px;
