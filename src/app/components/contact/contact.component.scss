@@ -7,18 +7,19 @@
 
     &__title {
       color: $branco-principal;
-      font-size: 18px;
-      padding-bottom: 16px;
+      font-size: 24px;
+      padding-bottom: 48px;
     }
 
     &__links {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 16px;
 
       &-item {
         list-style: none;
         font-weight: 500;
+        font-size: 22px;
 
         & a {
           color: $branco-principal;
@@ -34,33 +35,28 @@
 
 @media screen and (min-width: 768px) {
   .contact {
-
-    &__title {
-
-      font-size: 22px;
-      padding-bottom: 20px;
-    }
+    padding: 32px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .contact {
-    padding: 48px 32px;
-    text-align: center;
+    padding: 100px 48px;
+    // text-align: center;
 
     &__title {
-      font-size: 24px;
-      padding-bottom: 40px;
+      font-size: 32px;
+      padding-bottom: 64px;
     }
 
     &__links {
       display: flex;
       flex-direction: row;
-      justify-content: center;
-      gap: 24px;
+      // justify-content: center;
+      gap: 26px;
 
       &-item {
-        font-size: 18px;
+        font-size: 28px;
 
         & a:hover {
           text-decoration: underline;

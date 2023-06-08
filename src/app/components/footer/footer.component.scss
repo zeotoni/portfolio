@@ -1,0 +1,39 @@
+@import 'assets/scss/_base.scss';
+
+@media screen and (min-width: 0) {
+  .footer {
+    border-top: 1px solid $branco-principal;
+    background-color: $cinza-dark-1;
+    color: $branco-principal;
+    text-align: center;
+    padding: 24px;
+
+    &__text {
+      font-size: 16px;
+      font-weight: 400;
+
+      &:first-of-type {
+        padding-bottom: 5px;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    display: flex;
+    padding: 24px 48px;
+    justify-content: space-between;
+
+    &__text {
+
+      &:first-of-type {
+        padding-bottom: 0;
+      }
+    }
+  }
+}
