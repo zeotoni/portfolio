@@ -2,14 +2,13 @@
 
 @media screen and (min-width: 0) {
   .footer {
-    border-top: 1px solid $branco-principal;
     background-color: $cinza-dark-1;
     color: $branco-principal;
     text-align: center;
-    padding: 24px;
+    padding: 18px;
 
     &__text {
-      font-size: 16px;
+      font-size: 13px;
       font-weight: 400;
 
       &:first-of-type {

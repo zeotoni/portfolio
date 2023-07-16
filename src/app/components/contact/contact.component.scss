@@ -3,12 +3,20 @@
 @media screen and (min-width: 0) {
   .contact {
     background-color: $cinza-dark-1;
-    padding: 32px 24px;
+    padding: 48px 24px;
 
     &__title {
       color: $branco-principal;
+      padding-bottom: 10px;
+      font-size: 32px;
+      border-bottom: .5px solid #24bad5;
+      text-align: initial;
+    }
+
+    &__text {
+      color: $branco-principal;
       font-size: 24px;
-      padding-bottom: 48px;
+      padding: 48px 0;
     }
 
     &__links {
@@ -27,6 +35,7 @@
           display: flex;
           align-items: flex-start;
           gap: 8px;
+
         }
       }
     }
@@ -41,18 +50,20 @@
 
 @media screen and (min-width: 1024px) {
   .contact {
-    padding: 100px 48px;
-    // text-align: center;
+    padding: 48px;
+    height: 80vh;
+    text-align: center;
 
-    &__title {
+
+    &__text {
       font-size: 32px;
-      padding-bottom: 64px;
+      padding: 128px 0 64px;
     }
 
     &__links {
       display: flex;
       flex-direction: row;
-      // justify-content: center;
+      justify-content: center;
       gap: 26px;
 
       &-item {
