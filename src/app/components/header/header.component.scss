@@ -36,8 +36,8 @@
 
       .bar {
           padding: 0;
-          width: 35px;
-          height: 4px;
+          width: 32px;
+          height: 3px;
           background-color: $branco-principal;
           color: $branco-principal;
           display: block;
@@ -47,22 +47,22 @@
       }
 
       .bar1 {
-          top: 6px;
+          top: 8px;
       }
 
       .bar2,
       .bar3 {
-          top: 14.5px;
+          top: 15.5px;
       }
 
       .bar4 {
-          bottom: 2px;
+          bottom: 3px;
       }
 
       .checkbox:checked + label > .hamburger > .bar1{
         transform: rotate(45deg);
         transform-origin: 12%;
-        width: 33px
+        width: 30px
       }
 
       .checkbox:checked + label > .hamburger > .bar2 {
@@ -78,7 +78,7 @@
       .checkbox:checked + label > .hamburger > .bar4 {
           transform-origin: 12%;
           transform: rotate(-45deg);
-          width: 33px;
+          width: 30px;
       }
     }
 
