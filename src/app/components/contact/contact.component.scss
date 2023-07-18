@@ -3,8 +3,9 @@
 @media screen and (min-width: 0) {
   .contact {
     background-color: $cinza-dark-1;
-    padding: 48px 24px;
-    height: 80vh;
+    padding: 126px 24px;
+    height: 90vh;
+    height: 90dvh;
 
     &__title {
       color: $branco-principal;
@@ -45,14 +46,17 @@
 
 @media screen and (min-width: 768px) {
   .contact {
-    padding: 32px;
+    padding: 150px 32px 32px;
+    height: 88vh;
+    height: 88dvh;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .contact {
-    padding: 48px;
-    height: 80vh;
+    padding: 160px 48px 50px;
+    height: 92vh;
+    height: 92dvh;
     text-align: center;
 
 

@@ -155,6 +155,7 @@
 
     &__list-item a:hover {
       text-decoration: underline;
+      cursor: pointer;
       color: $cinza-dark-4;
     }
   }

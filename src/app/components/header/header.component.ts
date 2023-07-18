@@ -1,5 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { SlideInOutAnimation } from './header-animation';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -10,7 +11,11 @@ import { SlideInOutAnimation } from './header-animation';
 })
 export class HeaderComponent implements OnInit{
 
+  constructor(private router: Router) {}
+
   animationState: boolean = false;
+  showBtnX: boolean = false;
+
 
   ngOnInit(): void {
     if(window.innerWidth >= 768) {
@@ -29,5 +34,15 @@ export class HeaderComponent implements OnInit{
 
   toggleShowUl() {
     this.animationState = !this.animationState;
+    this.showBtnX = true;
+  }
+
+  @HostListener('window:resize', ['$event'])
+  goTo(route: string) {
+    if(window.innerWidth < 768) {
+      this.toggleShowUl();
+    }
+    this.router.navigateByUrl(route)
+    this.showBtnX = false;
   }
 }

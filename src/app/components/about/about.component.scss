@@ -3,9 +3,9 @@
 @media screen and (min-width: 0) {
   .about {
     background-color: $cinza-dark-1;
-    padding: 24px;
+    padding: 134px 24px 24px;
     text-align: center;
-    padding-top: 134px;
+
 
     & h2 {
       color: $branco-principal;
@@ -91,8 +91,8 @@
 
 @media screen and (min-width: 1024px) {
   .about {
-    padding: 160px 48px 48px;
-    height: 100vh;
+    padding: 160px 48px 50px;
+
 
     & div {
       flex-direction: row-reverse;

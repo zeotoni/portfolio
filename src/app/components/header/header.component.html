@@ -1,6 +1,6 @@
 <header class="header" lightMode>
   <div class="header__menu-hamb">
-    <input type="checkbox" id="checkbox" (change)="toggleShowUl()" class="checkbox visuallyHidden">
+    <input type="checkbox" id="checkbox" [checked]="showBtnX" (change)="toggleShowUl()" class="checkbox visuallyHidden">
     <label for="checkbox">
         <div class="hamburger">
             <span class="bar bar1"></span>
@@ -12,8 +12,8 @@
   </div>
   <span class="material-icons icon-theme">brightness_4</span>
   <ul class="header__list" [@slideInOut]="animationState ? 'in' : 'out' ">
-    <li class="header__list-item"><a href="#">Sobre</a></li>
-    <li class="header__list-item"><a href="#">Projetos</a></li>
-    <li class="header__list-item"><a href="#">Contato</a></li>
+    <li class="header__list-item"><a (click)="goTo('#about')">Sobre</a></li>
+    <li class="header__list-item"><a (click)="goTo('#projects')">Projetos</a></li>
+    <li class="header__list-item"><a (click)="goTo('#contact')">Contato</a></li>
   </ul>
 </header>
