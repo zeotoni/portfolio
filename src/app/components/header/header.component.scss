@@ -101,7 +101,7 @@
       top: 83px;
       width: 100vw;
       height: 100vh;
-      padding: 64px 48px;
+      padding: 128px 48px;
       background-color: $cinza-dark-2;
 
 
@@ -112,7 +112,8 @@
 
         a {
           color: $branco-principal;
-          text-decoration: none;
+          border-bottom: 3px solid #24bad5;
+          display: inline;
         }
       }
     }
@@ -140,8 +141,11 @@
       gap: 48px;
 
       &-item {
-        border-bottom: none;
         font-size: 28px;
+
+        a {
+          border-bottom: none;
+        }
       }
     }
   }
