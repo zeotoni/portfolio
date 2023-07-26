@@ -95,22 +95,23 @@
       list-style: none;
       display: flex;
       flex-direction: column;
-      gap: 24px;
+      gap: 64px;
       position: absolute;
       left: 0;
       top: 83px;
       width: 100vw;
-      padding: 32px;
-      background-color: $cinza-dark-4;
+      height: 100vh;
+      padding: 64px 48px;
+      background-color: $cinza-dark-2;
+
 
       &-item {
-        padding: 8px 0;
-        border-bottom: .5px solid $cinza-dark-3;
-        font-size: 28px;
+        padding: 12px 0;
+        font-size: 32px;
         font-weight: 700;
 
         a {
-          color: $cinza-dark-1;
+          color: $branco-principal;
           text-decoration: none;
         }
       }
@@ -122,14 +123,14 @@
   .header {
 
     flex-direction: row-reverse;
-    padding: 24px 32px;
+    padding: 22px 32px;
 
     &__menu-hamb {
       display: none;
     }
 
     &__list {
-      max-height: unset;
+      height: unset;
       opacity: unset;
       visibility: unset;
       flex-direction: row;
@@ -140,10 +141,7 @@
 
       &-item {
         border-bottom: none;
-
-        a {
-          color: $branco-principal;
-        }
+        font-size: 28px;
       }
     }
   }
@@ -152,6 +150,10 @@
 @media screen and (min-width: 1024px) {
   .header {
     padding: 24px 48px;
+
+    &__list {
+      height: unset;
+    }
 
     &__list-item a:hover {
       text-decoration: underline;

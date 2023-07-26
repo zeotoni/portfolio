@@ -3,9 +3,10 @@
 @media screen and (min-width: 0) {
   .contact {
     background-color: $cinza-dark-1;
-    padding: 126px 24px;
-    height: 90vh;
-    height: 90dvh;
+    padding: 134px 24px 40px;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+
+
 
     &__title {
       color: $branco-principal;

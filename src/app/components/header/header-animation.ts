@@ -3,19 +3,19 @@ import { trigger, state, style, transition, animate, group } from '@angular/anim
 export const SlideInOutAnimation = [
   trigger('slideInOut', [
       state('in', style({
-          'max-height': '250px', 'opacity': '1', 'visibility': 'visible'
+          'max-height': '100vh', 'opacity': '1', 'visibility': 'visible'
       })),
       state('out', style({
-          'max-height': '0px', 'opacity': '0', 'visibility': 'hidden'
+          'max-height': '0', 'opacity': '0', 'visibility': 'hidden'
       })),
       transition('in => out', [group([
-          animate('400ms ease-in-out', style({
+          animate('900ms ease-in-out', style({
               'opacity': '0'
           })),
-          animate('600ms ease-in-out', style({
-              'max-height': '0px'
+          animate('900ms ease-in-out', style({
+              'max-height': '0'
           })),
-          animate('700ms ease-in-out', style({
+          animate('900ms ease-in-out', style({
               'visibility': 'hidden'
           }))
       ]
@@ -24,10 +24,10 @@ export const SlideInOutAnimation = [
           animate('1ms ease-in-out', style({
               'visibility': 'visible'
           })),
-          animate('600ms ease-in-out', style({
-              'max-height': '250px'
+          animate('900ms ease-in-out', style({
+              'max-height': '100vh'
           })),
-          animate('800ms ease-in-out', style({
+          animate('1000ms ease-in-out', style({
               'opacity': '1'
           }))
       ]

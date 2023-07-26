@@ -40,9 +40,9 @@ export class HeaderComponent implements OnInit{
   @HostListener('window:resize', ['$event'])
   goTo(route: string) {
     if(window.innerWidth < 768) {
-      this.toggleShowUl();
+      this.animationState = false;
+      this.showBtnX = false;
     }
     this.router.navigateByUrl(route)
-    this.showBtnX = false;
   }
 }
