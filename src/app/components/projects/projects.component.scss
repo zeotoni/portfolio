@@ -1,76 +1,75 @@
 @import 'assets/scss/_base.scss';
 
-@media screen and (min-width: 0) {
 
-  .projects {
-    background-color: $cinza-dark-1;
-    background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+.projects {
+  background-color: $cinza-dark-1;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
 
+  display: flex;
+  flex-direction: column;
+  padding: 128px 24px 76px;
+
+
+  &__title {
+    color: $primary-white;
+    padding-bottom: 10px;
+    font-size: 32px;
+    border-bottom: .5px solid $primary-blue;
+  }
+
+  &__cards {
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
-    padding: 134px 24px 80px;
+    gap: 32px;
+  }
 
+  &__card {
+    width: 300px;
+    margin: 0 auto;
+    background-color: $cinza-dark-2;
+    border-radius: 10px;
+    box-shadow: $primary-blue 0px 5px 20px;
 
-    &__title {
-      color: $branco-principal;
-      padding-bottom: 10px;
-      font-size: 32px;
-      border-bottom: .5px solid #24bad5;
+    &-img {
+      width: 300px;
+      height: 200px;
+      border-radius: 10px 10px 0 0;
     }
 
-    &__cards {
-      padding-top: 30px;
+    &-description {
+      padding: 15px;
       display: flex;
       flex-direction: column;
-      gap: 32px;
-    }
+      gap: 10px;
+      color: $primary-white;
 
-    &__card {
-      width: 300px;
-      margin: 0 auto;
-      background-color: $cinza-dark-2;
-      border-radius: 10px;
-      box-shadow: #24bad5 0px 5px 20px;
-
-      &-img {
-        width: 300px;
-        height: 200px;
-        border-radius: 10px 10px 0 0;
+      &-title {
+        font-size: 22px;
       }
 
-      &-description {
-        padding: 15px;
+      &-text {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: $cinza-dark-4;
+      }
+
+      &-subtitle {
+        font-size: 18px;
+      }
+
+      &-list {
         display: flex;
         flex-direction: column;
-        gap: 10px;
-        color: $branco-principal;
+        gap: 5px;
 
-        &-title {
-          font-size: 22px;
-        }
-
-        &-text {
-          font-size: 16px;
+        &-item {
           font-weight: 500;
-          line-height: 24px;
-          color: $cinza-dark-4;
-        }
-
-        &-subtitle {
-          font-size: 18px;
-        }
-
-        &-list {
-          display: flex;
-          flex-direction: column;
-          gap: 5px;
-
-          &-item {
-            font-weight: 500;
-            list-style: none;
-          }
+          list-style: none;
         }
       }
+    }
 
       &-buttons {
         padding: 0 15px 15px;
@@ -79,11 +78,11 @@
         align-items: center;
 
         & a {
-          color: $branco-principal;
+          color: $primary-white;
           font-weight: 700;
           text-decoration: none;
           padding: 10px 15px;
-          border: 2px solid #24bad5;
+          border: 2px solid $primary-blue;
           border-radius: 5px;
           display: flex;
           gap: 10px;
@@ -96,7 +95,7 @@
       }
     }
   }
-}
+
 
 @media screen and (min-width: 768px) {
 
@@ -118,7 +117,7 @@
 
   .projects {
 
-    padding: 160px 48px 50px;
+    padding: 150px 48px 40px;
 
     &__cards {
       gap: 30px;

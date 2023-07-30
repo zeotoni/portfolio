@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit{
   constructor(private router: Router) {}
 
   animationState: boolean = false;
-  showBtnX: boolean = false;
+  showBtnClose: boolean = false;
 
 
   ngOnInit(): void {
@@ -34,14 +34,14 @@ export class HeaderComponent implements OnInit{
 
   toggleShowUl() {
     this.animationState = !this.animationState;
-    this.showBtnX = true;
+    this.showBtnClose = true;
   }
 
   @HostListener('window:resize', ['$event'])
   goTo(route: string) {
     if(window.innerWidth < 768) {
       this.animationState = false;
-      this.showBtnX = false;
+      this.showBtnClose = false;
     }
     this.router.navigateByUrl(route)
   }

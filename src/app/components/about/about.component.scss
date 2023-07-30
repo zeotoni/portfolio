@@ -1,71 +1,71 @@
 @import 'assets/scss/_base.scss';
 
-@media screen and (min-width: 0) {
-  .about {
-    background-color: $cinza-dark-1;
-    padding: 134px 24px 80px;
-    text-align: center;
+
+.about {
+  background-color: $cinza-dark-1;
+  padding: 128px 24px 76px;
+  text-align: center;
   background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
 
 
-    & h2 {
-      color: $branco-principal;
-      padding-bottom: 10px;
-      font-size: 32px;
-      border-bottom: .5px solid #24bad5;
+  & h1 {
+    color: $primary-white;
+    padding-bottom: 10px;
+    font-size: 32px;
+    border-bottom: .5px solid $primary-blue;
+    text-align: initial;
+
+  }
+
+  & div {
+    padding-top: 30px;
+  }
+
+  &__img {
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 150px;
+    border: 3px solid $primary-blue;
+  }
+
+  &__info {
+
+    &-text {
       text-align: initial;
+      color: $primary-white;
+      padding: 24px 0;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 26px;
 
-    }
-
-    & div {
-      padding-top: 30px;
-    }
-
-    &__img {
-      display: block;
-      height: 200px;
-      margin: 0 auto;
-      border-radius: 150px;
-      border: 3px solid #24bad5;
-    }
-
-    &__info {
-
-      &-text {
-        text-align: initial;
-        color: $branco-principal;
-        padding: 24px 0;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 26px;
-
-        & a {
-          color: inherit;
-        }
+      & a {
+        color: inherit;
       }
+    }
 
-      &-btn {
-        border: 2px solid #24bad5;
-        background-color: $cinza-dark-2;
-        width: 150px;
-        height: 48px;
-        font-size: 18px;
-        font-weight: 700;
-        border-radius: 5px;
-        color: $branco-principal;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        justify-content: center;
+    &-btn {
+      border: 2px solid $primary-blue;
+      background-color: $cinza-dark-2;
+      width: 150px;
+      height: 48px;
+      font-size: 18px;
+      font-weight: 700;
+      border-radius: 5px;
+      color: $primary-white;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: center;
 
-        &:hover {
-          cursor: pointer;
-          background-color: $cinza-dark-3;
-        }
+      &:hover {
+        cursor: pointer;
+        background-color: $cinza-dark-3;
       }
     }
   }
 }
+
 
 @media screen and (min-width: 768px) {
   .about {
@@ -92,7 +92,7 @@
 
 @media screen and (min-width: 1024px) {
   .about {
-    padding: 160px 48px 50px;
+    padding: 150px 48px 40px;
 
 
     & div {

@@ -1,49 +1,49 @@
 @import 'assets/scss/_base.scss';
 
-@media screen and (min-width: 0) {
-  .contact {
-    background-color: $cinza-dark-1;
-    padding: 134px 24px 40px;
-    background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+
+.contact {
+  background-color: $cinza-dark-1;
+  padding: 128px 24px 30px;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
 
 
 
-    &__title {
-      color: $branco-principal;
-      padding-bottom: 10px;
-      font-size: 32px;
-      border-bottom: .5px solid #24bad5;
-      text-align: initial;
-    }
+  &__title {
+    color: $primary-white;
+    padding-bottom: 10px;
+    font-size: 32px;
+    border-bottom: .5px solid $primary-blue;
+    text-align: initial;
+  }
 
-    &__text {
-      color: $branco-principal;
-      font-size: 24px;
-      padding: 48px 0;
-    }
+  &__text {
+    color: $primary-white;
+    font-size: 24px;
+    padding: 48px 0;
+  }
 
-    &__links {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 
-      &-item {
-        list-style: none;
-        font-weight: 500;
-        font-size: 22px;
+    &-item {
+      list-style: none;
+      font-weight: 500;
+      font-size: 22px;
 
-        & a {
-          color: $branco-principal;
-          text-decoration: none;
-          display: flex;
-          align-items: flex-start;
-          gap: 8px;
+      & a {
+        color: $primary-white;
+        text-decoration: none;
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
 
-        }
       }
     }
   }
 }
+
 
 @media screen and (min-width: 768px) {
   .contact {
@@ -55,7 +55,7 @@
 
 @media screen and (min-width: 1024px) {
   .contact {
-    padding: 160px 48px 50px;
+    padding: 150px 48px 40px;
     height: 92vh;
     height: 92dvh;
     text-align: center;
