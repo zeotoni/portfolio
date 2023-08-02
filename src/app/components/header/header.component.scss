@@ -12,14 +12,6 @@
 
   &__menu-hamb {
 
-    .visuallyHidden {
-      position: absolute;
-      overflow: hidden;
-      clip: rect(0 0 0 0);
-      height: 1px; width: 1px;
-      margin: -1px; padding: 0; border: 0;
-    }
-
     .hamburger {
       margin: 0 auto;
       width: 30px;
@@ -55,6 +47,10 @@
 
     .bar4 {
       bottom: 3px;
+    }
+
+    .checkbox {
+      display: none;
     }
 
     .checkbox:checked + label > .hamburger > .bar1{
