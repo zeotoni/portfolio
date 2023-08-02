@@ -2,10 +2,9 @@
 
 
 .contact {
-  background-color: $cinza-dark-1;
-  padding: 128px 24px 30px;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
-
+  padding: 50px 24px;
+  height: 75vh;
+  height: 75dvh;
 
 
   &__title {
@@ -47,19 +46,16 @@
 
 @media screen and (min-width: 768px) {
   .contact {
-    padding: 150px 32px 32px;
-    height: 88vh;
-    height: 88dvh;
+    padding: 72px 32px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .contact {
-    padding: 150px 48px 40px;
-    height: 92vh;
-    height: 92dvh;
+    padding: 72px 48px;
     text-align: center;
-
+    height: 80vh;
+    height: 80dvh;
 
     &__text {
       font-size: 32px;
@@ -82,4 +78,3 @@
     }
   }
 }
-

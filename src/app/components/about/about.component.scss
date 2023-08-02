@@ -2,10 +2,8 @@
 
 
 .about {
-  background-color: $cinza-dark-1;
-  padding: 128px 24px 76px;
+  padding: 128px 24px 50px;
   text-align: center;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
 
 
   & h1 {
@@ -78,7 +76,7 @@
 
 @media screen and (min-width: 768px) {
   .about {
-    padding: 150px 32px 40px;
+    padding: 150px 32px 50px;
 
     .container {
       display: flex;
@@ -106,7 +104,7 @@
 
 @media screen and (min-width: 1024px) {
   .about {
-    padding: 150px 48px 40px;
+    padding: 150px 48px 50px;
 
 
     .container {

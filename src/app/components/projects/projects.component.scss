@@ -2,12 +2,10 @@
 
 
 .projects {
-  background-color: $cinza-dark-1;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
 
   display: flex;
   flex-direction: column;
-  padding: 128px 24px 76px;
+  padding: 50px 24px;
 
 
   &__title {
@@ -49,10 +47,11 @@
       }
 
       &-text {
+        font-family: 'Comic Neue', cursive;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
-        color: $cinza-dark-4;
+        color: $primary-white;
       }
 
       &-subtitle {
@@ -101,7 +100,7 @@
 
   .projects {
 
-    padding: 150px 32px 32px;
+    padding: 72px 32px;
 
     &__cards {
       display: grid;
@@ -117,7 +116,7 @@
 
   .projects {
 
-    padding: 150px 48px 40px;
+    padding: 72px 48px;
 
     &__cards {
       gap: 30px;
