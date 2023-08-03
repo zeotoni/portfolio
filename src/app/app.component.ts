@@ -8,8 +8,6 @@ import { Router } from '@angular/router';
 })
 export class AppComponent implements OnInit{
 
-  title = 'portfolio-ezequiel';
-
   constructor(private router: Router){}
 
   ngOnInit(): void {
