@@ -47,6 +47,11 @@
 @media screen and (min-width: 768px) {
   .contact {
     padding: 72px 32px;
+
+    &__links {
+      flex-direction: row;
+      justify-content: center;
+    }
   }
 }
 

@@ -156,8 +156,10 @@
 
 @media screen and (min-width: 1800px) {
 
-  .header {
+  .header ul {
     max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 48px;
   }
 }
 

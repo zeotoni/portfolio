@@ -1,7 +1,10 @@
 @import 'assets/scss/_base.scss';
 
 .container {
-  background-color: $cinza-dark-1;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+
+  @media screen and (min-width: 1800px) {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
 }
 
