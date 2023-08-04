@@ -144,10 +144,12 @@
       height: unset;
     }
 
-    &__list-item a:hover {
-      text-decoration: underline;
-      cursor: pointer;
-      color: $cinza-dark-4;
+    &__list-item {
+
+      a:hover {
+        border-bottom: 2px solid $primary-blue;
+        cursor: pointer;
+      }
     }
   }
 }

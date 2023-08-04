@@ -71,8 +71,8 @@
       &-item {
         font-size: 28px;
 
-        & a:hover {
-          color: $cinza-dark-4;
+        &:hover {
+          border-bottom: 2px solid $primary-blue;
         }
       }
     }
