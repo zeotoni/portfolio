@@ -3,8 +3,6 @@
 
 .contact {
   padding: 50px 24px;
-  height: 75vh;
-  height: 75dvh;
 
 
   &__title {
@@ -17,8 +15,11 @@
 
   &__text {
     color: $primary-white;
-    font-size: 24px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
     padding: 48px 0;
+    width: 90%;
   }
 
   &__links {
@@ -48,6 +49,12 @@
   .contact {
     padding: 72px 32px;
 
+    &__text {
+      width: 60%;
+      margin: auto;
+      text-align: center;
+    }
+
     &__links {
       flex-direction: row;
       justify-content: center;
@@ -63,7 +70,7 @@
     height: 80dvh;
 
     &__text {
-      font-size: 32px;
+      font-size: 1.4rem;
       padding: 128px 0 64px;
     }
 

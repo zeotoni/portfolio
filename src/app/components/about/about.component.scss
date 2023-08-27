@@ -33,9 +33,9 @@
       text-align: initial;
       color: $primary-white;
       padding: 24px 0;
-      font-size: 18px;
+      font-size: 1.2rem;
       font-weight: 500;
-      line-height: 26px;
+      line-height: 1.5;
 
       & a {
         color: inherit;
@@ -121,8 +121,7 @@
       width: 55%;
 
       &-text {
-        line-height: 32px;
-        font-size: 22px;
+        font-size: 1.4rem;
       }
 
       &-btn {
