@@ -46,8 +46,8 @@
 
       a {
 
-        border: 2px solid $primary-blue;
-        background-color: $cinza-dark-2;
+        filter: drop-shadow(2px 2px 4px rgba(0,0,0,.25));
+        background-color: $cinza-dark-3;
         width: 150px;
         height: 48px;
         font-size: 18px;
@@ -58,13 +58,17 @@
         align-items: center;
         gap: 10px;
         justify-content: center;
-        margin-bottom: 10px;
+
+        &:first-of-type {
+          margin-bottom: 16px;
+        }
 
         i {
           display: flex;
         }
 
         &:hover {
+          border: 2px solid $primary-blue;
           cursor: pointer;
           background-color: $cinza-dark-3;
         }
@@ -96,6 +100,9 @@
       &-btn {
         display: flex;
         gap: 10px;
+        & a:first-of-type {
+          margin-bottom: 0;
+        }
       }
     }
 
