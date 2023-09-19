@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://db.onlinewebfonts.com/c/7200c6dd8ac604abe09f5159e53a40c0?family=Mark+Pro');
 @import 'hamburgers/_sass/hamburgers/hamburgers.scss';
 @import 'assets/scss/base';
 
@@ -12,7 +13,7 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Mark Pro";
   background-color: $cinza-dark-1;
   background-attachment: fixed;
   background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
@@ -26,4 +27,5 @@ a {
 html {
   scroll-behavior: smooth;
 }
+
 
