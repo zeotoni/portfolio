@@ -89,8 +89,8 @@
           align-items: flex-start;
 
           &:hover {
-            margin: -2px;
-            border: 2px solid $primary-blue;
+            margin-bottom: -2.5px;
+            border-bottom: 2.5px solid $primary-blue;
           }
         }
       }
@@ -118,7 +118,7 @@
 
   .projects {
 
-    padding: 72px 48px;
+    padding: 72px 100px;
 
     &__cards {
       gap: 30px;
