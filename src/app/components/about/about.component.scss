@@ -65,12 +65,9 @@
           margin-bottom: 16px;
         }
 
-        i {
-          display: flex;
-        }
-
         &:hover {
-          border: 2px solid $primary-blue;
+          border-bottom: 2px solid $primary-blue;
+          margin-bottom: -2px;
           cursor: pointer;
         }
       }

@@ -193,10 +193,13 @@
 
 @media screen and (min-width: 1800px) {
 
-  .header ul {
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 48px;
+  .header {
+
+    &__menu-desktop {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 0 100px;
+    }
   }
 }
 
