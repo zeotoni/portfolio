@@ -5,10 +5,12 @@ import { FooterComponent } from "./footer/footer.component";
 import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from "./projects/projects.component";
 import { ContactComponent } from './contact/contact.component';
+import { AppRoutingModule } from "app/app-routing.module";
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    AppRoutingModule
   ],
   declarations: [
     HeaderComponent,

@@ -10,9 +10,14 @@
         </div>
     </label>
   </div>
-  <ul class="header__list" [@slideInOut]="animationState ? 'in' : 'out' ">
-    <li class="header__list-item"><a (click)="goTo('#about')">Sobre</a></li>
-    <li class="header__list-item"><a (click)="goTo('#projects')">Projetos</a></li>
-    <li class="header__list-item"><a (click)="goTo('#contact')">Contato</a></li>
-  </ul>
+  <div class="header__menu-desktop">
+    <span>EZEQUIEL OTONI</span>
+    <nav>
+      <ul class="header__list" [@slideInOut]="animationState ? 'in' : 'out' ">
+        <li class="header__list-item"><a (click)="goTo('about')" routerLink="about" routerLinkActive="link-highlighted">Sobre</a></li>
+        <li class="header__list-item"><a (click)="goTo('projects')" routerLink="projects" routerLinkActive="link-highlighted">Projetos</a></li>
+        <li class="header__list-item"><a (click)="goTo('contact')" routerLink="contact" routerLinkActive="link-highlighted">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>

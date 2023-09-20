@@ -1,6 +1,8 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { SlideInOutAnimation } from './header-animation';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Event, NavigationEnd, NavigationStart, Router, RouterEvent } from '@angular/router';
+import { filter, map } from 'rxjs';
+import { ViewportScroller } from '@angular/common';
 
 
 @Component({
@@ -11,7 +13,10 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit{
 
-  constructor(private router: Router) {}
+  constructor(
+    private router: Router,
+    private scroller: ViewportScroller
+  ) {}
 
   animationState: boolean = false;
   showBtnClose: boolean = false;
@@ -43,6 +48,7 @@ export class HeaderComponent implements OnInit{
       this.animationState = false;
       this.showBtnClose = false;
     }
-    this.router.navigateByUrl(route)
+
+    this.scroller.scrollToAnchor(route);
   }
 }
