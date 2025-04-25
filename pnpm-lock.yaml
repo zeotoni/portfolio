@@ -9,40 +9,40 @@ importers:
   .:
     dependencies:
       '@angular/animations':
-        specifier: ^15.2.0
+        specifier: ^15.2.10
         version: 15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))
       '@angular/cdk':
         specifier: ^15.2.9
         version: 15.2.9(@angular/common@15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))(rxjs@7.8.2))(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))(rxjs@7.8.2)
       '@angular/common':
-        specifier: ^15.2.0
+        specifier: ^15.2.10
         version: 15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))(rxjs@7.8.2)
       '@angular/compiler':
-        specifier: ^15.2.0
+        specifier: ^15.2.10
         version: 15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))
       '@angular/core':
-        specifier: ^15.2.0
+        specifier: ^15.2.10
         version: 15.2.10(rxjs@7.8.2)(zone.js@0.12.0)
       '@angular/forms':
-        specifier: ^15.2.0
+        specifier: ^15.2.10
         version: 15.2.10(@angular/common@15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))(rxjs@7.8.2))(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))(@angular/platform-browser@15.2.10(@angular/animations@15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0)))(@angular/common@15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))(rxjs@7.8.2))(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0)))(rxjs@7.8.2)
       '@angular/material':
         specifier: ^15.2.9
         version: 15.2.9(rnxxffnplxjabltl2lt36p6gxy)
       '@angular/platform-browser':
-        specifier: ^15.2.0
+        specifier: ^15.2.10
         version: 15.2.10(@angular/animations@15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0)))(@angular/common@15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))(rxjs@7.8.2))(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))
       '@angular/platform-browser-dynamic':
-        specifier: ^15.2.0
+        specifier: ^15.2.10
         version: 15.2.10(@angular/common@15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))(rxjs@7.8.2))(@angular/compiler@15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0)))(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))(@angular/platform-browser@15.2.10(@angular/animations@15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0)))(@angular/common@15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))(rxjs@7.8.2))(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0)))
       '@angular/router':
-        specifier: ^15.2.0
+        specifier: ^15.2.10
         version: 15.2.10(@angular/common@15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))(rxjs@7.8.2))(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))(@angular/platform-browser@15.2.10(@angular/animations@15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0)))(@angular/common@15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0))(rxjs@7.8.2))(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0)))(rxjs@7.8.2)
       '@flaticon/flaticon-uicons':
-        specifier: ^2.2.0
+        specifier: ^2.4.0
         version: 2.4.0
       '@types/file-saver':
-        specifier: ^2.0.5
+        specifier: ^2.0.7
         version: 2.0.7
       file-saver:
         specifier: ^2.0.5
@@ -51,38 +51,38 @@ importers:
         specifier: ^1.2.1
         version: 1.2.1
       rxjs:
-        specifier: ~7.8.0
+        specifier: ~7.8.2
         version: 7.8.2
       tslib:
-        specifier: ^2.3.0
+        specifier: ^2.8.1
         version: 2.8.1
       zone.js:
         specifier: ~0.12.0
         version: 0.12.0
     devDependencies:
       '@angular-devkit/build-angular':
-        specifier: ^15.2.2
+        specifier: ^15.2.11
         version: 15.2.11(@angular/compiler-cli@15.2.10(@angular/compiler@15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0)))(typescript@4.9.5))(karma@6.4.4)(typescript@4.9.5)
       '@angular/cli':
-        specifier: ~15.2.2
+        specifier: ~15.2.11
         version: 15.2.11(chokidar@3.5.3)
       '@angular/compiler-cli':
-        specifier: ^15.2.0
+        specifier: ^15.2.10
         version: 15.2.10(@angular/compiler@15.2.10(@angular/core@15.2.10(rxjs@7.8.2)(zone.js@0.12.0)))(typescript@4.9.5)
       '@types/jasmine':
-        specifier: ~4.3.0
+        specifier: ~4.3.6
         version: 4.3.6
       jasmine-core:
         specifier: ~4.5.0
         version: 4.5.0
       karma:
-        specifier: ~6.4.0
+        specifier: ~6.4.4
         version: 6.4.4
       karma-chrome-launcher:
-        specifier: ~3.1.0
+        specifier: ~3.1.1
         version: 3.1.1
       karma-coverage:
-        specifier: ~2.2.0
+        specifier: ~2.2.1
         version: 2.2.1
       karma-jasmine:
         specifier: ~5.1.0
@@ -91,7 +91,7 @@ importers:
         specifier: ~2.0.0
         version: 2.0.0(jasmine-core@4.5.0)(karma-jasmine@5.1.0(karma@6.4.4))(karma@6.4.4)
       typescript:
-        specifier: ~4.9.4
+        specifier: ~4.9.5
         version: 4.9.5
 
 packages:
@@ -401,6 +401,7 @@ packages:
   '@babel/plugin-proposal-async-generator-functions@7.20.7':
     resolution: {integrity: sha512-xMbiLsn/8RK7Wq7VeVytytS2L6qE69bXPB10YCmMdDZbKF4okCqY74pI/jJQ/8U0b/F6NrT2+14b8/P9/3AMGA==}
     engines: {node: '>=6.9.0'}
+    deprecated: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
     peerDependencies:
       '@babel/core': ^7.0.0-0
 
@@ -1299,8 +1300,8 @@ packages:
   '@types/node-forge@1.3.11':
     resolution: {integrity: sha512-FQx220y22OKNTqaByeBGqHWYz4cl94tpcxeFdvBo3wjG6XPBuZ0BNgNZRV5J5TFmmcsJ4IzsLkmGRiQbnYsBEQ==}
 
-  '@types/node@22.14.1':
-    resolution: {integrity: sha512-u0HuPQwe/dHrItgHHpmw3N2fYCR6x4ivMNbPHRkBVP4CvN+kiRrKHWk3i8tXiO/joPwXLMYvF9TTF0eqgHIuOw==}
+  '@types/node@22.15.0':
+    resolution: {integrity: sha512-99S8dWD2DkeE6PBaEDw+In3aar7hdoBvjyJMR6vaKBTzpvR0P00ClzJMOoVrj9D2+Sy/YCwACYHnBTpMhg1UCA==}
 
   '@types/parse-json@4.0.2':
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
@@ -1894,8 +1895,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.141:
-    resolution: {integrity: sha512-qS+qH9oqVYc1ooubTiB9l904WVyM6qNYxtOEEGReoZXw3xlqeYdFr5GclNzbkAufWgwWLEPoDi3d9MoRwwIjGw==}
+  electron-to-chromium@1.5.142:
+    resolution: {integrity: sha512-Ah2HgkTu/9RhTDNThBtzu2Wirdy4DC9b0sMT1pUhbkZQ5U/iwmE+PHZX1MpjD5IkJCc2wSghgGG/B04szAx07w==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -5787,24 +5788,24 @@ snapshots:
   '@types/body-parser@1.19.5':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
 
   '@types/bonjour@3.5.13':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
 
   '@types/connect-history-api-fallback@1.5.4':
     dependencies:
       '@types/express-serve-static-core': 5.0.6
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
 
   '@types/cors@2.8.17':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
 
   '@types/eslint-scope@3.7.7':
     dependencies:
@@ -5820,14 +5821,14 @@ snapshots:
 
   '@types/express-serve-static-core@4.19.6':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
       '@types/qs': 6.9.18
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
 
   '@types/express-serve-static-core@5.0.6':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
       '@types/qs': 6.9.18
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
@@ -5845,7 +5846,7 @@ snapshots:
 
   '@types/http-proxy@1.17.16':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
 
   '@types/jasmine@4.3.6': {}
 
@@ -5855,9 +5856,9 @@ snapshots:
 
   '@types/node-forge@1.3.11':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
 
-  '@types/node@22.14.1':
+  '@types/node@22.15.0':
     dependencies:
       undici-types: 6.21.0
 
@@ -5872,7 +5873,7 @@ snapshots:
   '@types/send@0.17.4':
     dependencies:
       '@types/mime': 1.3.5
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
 
   '@types/serve-index@1.9.4':
     dependencies:
@@ -5881,16 +5882,16 @@ snapshots:
   '@types/serve-static@1.15.7':
     dependencies:
       '@types/http-errors': 2.0.4
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
       '@types/send': 0.17.4
 
   '@types/sockjs@0.3.36':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
 
   '@types/ws@8.18.1':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
 
   '@webassemblyjs/ast@1.11.1':
     dependencies:
@@ -6192,14 +6193,14 @@ snapshots:
   browserslist@4.21.5:
     dependencies:
       caniuse-lite: 1.0.30001715
-      electron-to-chromium: 1.5.141
+      electron-to-chromium: 1.5.142
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.21.5)
 
   browserslist@4.24.4:
     dependencies:
       caniuse-lite: 1.0.30001715
-      electron-to-chromium: 1.5.141
+      electron-to-chromium: 1.5.142
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.4)
 
@@ -6565,7 +6566,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.141: {}
+  electron-to-chromium@1.5.142: {}
 
   emoji-regex@8.0.0: {}
 
@@ -6587,7 +6588,7 @@ snapshots:
   engine.io@6.6.4:
     dependencies:
       '@types/cors': 2.8.17
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
       accepts: 1.3.8
       base64id: 2.0.0
       cookie: 0.7.2
@@ -7228,7 +7229,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
