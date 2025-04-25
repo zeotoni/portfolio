@@ -52,23 +52,23 @@
         filter: drop-shadow(2px 2px 4px rgba(0,0,0,.25));
         background-color: $cinza-dark-3;
         width: 150px;
-        height: 48px;
         font-size: 18px;
         font-weight: 700;
         border-radius: 5px;
         color: $primary-white;
+        padding: 12px 18px;
         display: flex;
         align-items: center;
         gap: 10px;
         justify-content: center;
 
-        &:first-of-type {
-          margin-bottom: 16px;
+        &:last-of-type {
+          margin-top: 16px;
         }
 
         &:hover {
-          border-bottom: 2px solid $primary-blue;
           margin-bottom: -2px;
+          border-bottom: 2px solid $primary-blue;
           cursor: pointer;
         }
       }
@@ -97,8 +97,8 @@
       &-btn {
         display: flex;
         gap: 10px;
-        & a:first-of-type {
-          margin-bottom: 0;
+        & a:last-of-type {
+          margin-top: 0;
         }
       }
     }
