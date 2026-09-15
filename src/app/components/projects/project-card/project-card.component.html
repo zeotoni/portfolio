@@ -1,0 +1,17 @@
+<div class="projects__card">
+  <img [src]="image" [alt]="alt" class="projects__card-img">
+  <div class="projects__card-description">
+    <h3 class="projects__card-description-title">{{ title }}</h3>
+    <p class="projects__card-description-text">{{description}}
+    </p>
+    <ul *ngFor="let item of technologies" class="projects__card-description-list">
+      <li class="projects__card-description-list-item">{{ item }}</li>
+    </ul>
+  </div>
+  <div class="projects__card-buttons">
+    <a target="_blank" [href]="deployLink" class="btn"><i class="fi fi-brands-github"></i>
+      Visit site</a>
+    <a target="_blank" [href]="githubLink" class="btn"><i class="fi fi-br-link-alt"></i>
+      Github</a>
+  </div>
+</div>
