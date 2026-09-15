@@ -26,9 +26,10 @@
   &__img {
     display: block;
     height: 200px;
+    width: 200px;
+    object-fit: cover;
     margin: 0 auto 30px;
     border-radius: 50%;
-    padding: 4px;
     border: 7px solid $primary-blue;
   }
 
@@ -49,7 +50,7 @@
     &-btn {
 
       a {
-        filter: drop-shadow(2px 2px 4px rgba(0,0,0,.25));
+        filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .25));
         background-color: $cinza-dark-3;
         width: 150px;
         font-size: 18px;
@@ -85,25 +86,26 @@
       font-size: 2.2rem;
     }
 
-    &__info {
-      display: flex;
-      flex-direction: column;
-      width: 80%;
+  &__info {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
 
-      &-text {
-        padding: 0 0 20px;
-      }
-
-      &-btn {
-        display: flex;
-        gap: 10px;
-        & a:last-of-type {
-          margin-top: 0;
-        }
-      }
+    &-text {
+      padding: 0 0 20px;
     }
 
+    &-btn {
+      display: flex;
+      gap: 10px;
+
+      & a:last-of-type {
+        margin-top: 0;
+      }
+    }
   }
+
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -141,6 +143,7 @@
 
     &__img {
       height: 400px;
+      width: 400px;
       margin: 0 auto;
     }
   }
