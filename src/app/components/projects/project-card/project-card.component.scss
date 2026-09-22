@@ -31,10 +31,8 @@
       font-weight: 500;
       line-height: 24px;
       color: $primary-white;
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
-      -webkit-line-clamp: 3;
-      line-clamp: 3;
+      display: block;
+      height: 4.6875rem;
       overflow: auto;
       scrollbar-width: none;
 

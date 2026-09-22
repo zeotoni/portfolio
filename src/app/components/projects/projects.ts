@@ -1,4 +1,18 @@
 export const projects = [
+   {
+    image: 'assets/img/bankapi.png',
+    alt: 'Projeto BANK-API',
+    title: 'Bank-Api',
+    description:
+      'API REST de sistema bancário desenvolvida com Java, Spring Boot e Oracle Database, utilizando procedures, functions e triggers em PL/SQL.',
+    technologies: [
+      'Java',
+      'Oracle',
+      'PL/SQL',
+    ],
+    siteUrl: 'https://github.com/zeotoni/bank-api-java-spring-oracle',
+    githubUrl: 'https://github.com/zeotoni/bank-api-java-spring-oracle'
+  },
   {
     image: 'assets/img/cinevue.png',
     alt: 'Projeto CineVue',
