@@ -1,5 +1,19 @@
 export const projects = [
-   {
+  {
+    image: 'assets/img/afination.png',
+    alt: 'Projeto Afination',
+    title: 'Afination',
+    description:
+      'PWA de afinador de violão construído em JavaScript puro, sem frameworks. Captura áudio via Web Audio API, detecta pitch em tempo real e funciona 100% offline, instalável direto do navegador.',
+    technologies: [
+      'JavaScript',
+      'Web Audio API',
+      'PWA',
+    ],
+    siteUrl: 'https://afination.vercel.app/',
+    githubUrl: 'https://github.com/zeotoni/afination'
+  },
+  {
     image: 'assets/img/bankapi.png',
     alt: 'Projeto BANK-API',
     title: 'Bank-Api',
